@@ -1,3 +1,5 @@
+# Intel Caffe int8 推理校准工具 统计各层输入数据参数 和 卷积参数 绝对最大值 计算量化尺度 
+
 # Caffe-Int8-Convert-Tools
 
 This convert tools is base on TensorRT 2.0 Int8 calibration tools,which use the KL algorithm to find the suitable threshold to quantize the activions from Float32 to Int8(-128 - 127).
